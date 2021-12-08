@@ -1,3 +1,4 @@
+//dichiaro oggetto con i suoi attributi
 occhialini = {
     nome: "occhialini nuoto",
     costo: 15,
@@ -8,6 +9,7 @@ occhialini = {
     }
 }
 let i=false;
+//funz bottone
 function buttonOcchialini() {
     if (!i) {
         document.getElementById("p_di_occhialini").innerHTML = occhialini.caratteristicheCompleteO();

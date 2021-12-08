@@ -12,7 +12,7 @@ let i=false;
 //funz bottone
 function buttonCuffia() {
     if (!i) {
-        document.getElementById("p_di_cuffia").innerHTML = occhialini.caratteristicheCompleteC();
+        document.getElementById("p_di_cuffia").innerHTML = cuffia.caratteristicheCompleteC();
         i=true;
     }
     else {
